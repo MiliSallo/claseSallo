@@ -18,6 +18,8 @@ let ecografia = 1500;
 let cirugia = 5000;
 let coseguro = 300;
 
+// switch que intenté pero no me salió//
+
 /*let servicioSeleccionado = prompt ("Seleccioná un servicio");
 while (servicioSeleccionado != "ESC"){
     switch (servicioSeleccionado){
