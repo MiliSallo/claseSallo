@@ -18,31 +18,8 @@ let ecografia = 1500;
 let cirugia = 5000;
 let coseguro = 300;
 
-// switch que intenté pero no me salió//
-
-/*let servicioSeleccionado = prompt ("Seleccioná un servicio");
-while (servicioSeleccionado != "ESC"){
-    switch (servicioSeleccionado){
-        case "consultorio":
-            alert ("Has seleccionado el servicio de consultorio");
-            break;
-            case "peluqueria":
-                alert ("Has seleccionado el servicio de peluqueria");
-                break;
-                case "ecografia":
-                    alert ("Has seleccionado el servicio de ecografia");
-                    break;
-                    case "cirugia":
-                        alert ("Has seleccionado el servicio de cirugia");
-                        break;
-                                default:
-                                    alert("Lo sentimos, no existe ese servicio")
-                                        break;
-    }
-    servicioSeleccionado = prompt ("Seleccioná un servicio");
-}*/
-
 let servicioSeleccionado 
+
 do{
 
     servicioSeleccionado = prompt ("Seleccioná un servicio");
@@ -68,7 +45,7 @@ do{
     }
 
     
-}while ((servicioSeleccionado === "") || ((servicioSeleccionado == "consultorio") || (servicioSeleccionado == "peluqueria")(servicioSeleccionado == "ecografia") || (servicioSeleccionado == "cirugia")))
+}while (servicioSeleccionado != "ESC")
 
 function calcularPrecioServicio (servicioSeleccionado){
     switch (servicioSeleccionado){
